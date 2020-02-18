@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+
+block variables
+
+html(lang="en")
+    head
+        link(rel="stylesheet", href="main.css")
+        title #{title}
+    body(class= {'body-main': mainPage,
+                 'inner-main': innerPage
+                })
+        block content
